@@ -132,7 +132,7 @@ The reason for this craziness is irrelevant, sufice it to say we needed it to be
 
 Now that you have these two queries, you just need a couple of filters in your functions.php file.
 
-```
+```php
 <?php
     // you need this to generate the sitemap from a cron
     if ( isset($_GET['some-secret-thing']) ) {
